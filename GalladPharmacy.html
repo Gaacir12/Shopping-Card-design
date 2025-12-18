@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Development version -->
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+<!-- Production version -->
+<script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    <title>Gaacir Pharmacy</title>
+  </head>
+  <body>
+    <div class="min-h-screen bg-slate-50">
+      <!-- header -->
+      <header class="bg-white shadow-sm">
+        <div
+          class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between"
+        >
+          <!-- Logo -->
+          <div class="flex items-center">
+            <span class="text-slate-900 font-bold">Gallad</span>
+            <span class="text-blue-600 font-bold">Pharmacy</span>
+          </div>
+          <!-- Navigation -->
+          <nav class="hidden lg:flex items-center gap-8">
+            <a class="text-blue-600 border-b-2 border-blue-600 pb-1" href="/"
+              >Home</a
+            >
+            <a class="text-slate-600 hover:text-slate-900" href="#">About</a>
+            <a class="text-slate-600 hover:text-slate-900" href="#"
+              >Application</a
+            >
+            <a class="text-slate-600 hover:text-slate-900" href="#">History</a>
+          </nav>
+
+          <!-- Action Buttons  responsive -->
+          <div class="flex items-center gap-2 sm:gap-3">
+            <button
+              class="px-3 sm:px-6 py-2 text-blue-600 border border-blue-600 rounded-lg hover:bgblue-50 transition-colors cursor-pointer"
+            >
+              Login
+            </button>
+            <button
+              class="px-3 sm:px-6 py-2 text-blue-600 border bg-blue-700 rounded-lg hover:bg-blue-800 text-white transition-colors cursor-pointer"
+            >
+              Sign Up
+            </button>
+            <button class="lg:hidden p-2">
+              <menu class="w-6 h-6 text-slate-600"> </menu>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <!-- Hero section -->
+       <section class="relative bg-gradient-to-br from-blue-50 via-slate-50 to-blue-100 overflow-hidden">
+         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20 grid lg:grid-cols-2 gap-8 lg:gap-12  items-center">
+
+            <!-- left content -->
+             <div class="space-y-6 sm:space-y-8 order-2 lg-:order-1">
+               <div class="space-y-3 sm:space-y-4">
+                  <h1 class="text-slate-900 text-3xl sm:text-4xl lg:text-5xl">
+                     Your Trusted <span class="text-blue-600 font-bold">Pharmacy</span> Partner
+                     <span class="text-blue-600">Favourite</span>
+                     Doctor
+                  </h1>
+                  <p class="text-slate-600 text-sm sm:text-base">Providing quality healthcare services with a personal touch.</p>
+
+               </div>
+
+               <!-- Search Form Responsive -->
+                <div class="bg-white rounded-full shadow-lg p-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-2 ">
+                  <div class="flex items-center gap-3 px-4 py-3 sm:py-2 flex-1 sm:border-r border-slate-200">
+                     <User class="w-5 h-5 text-slate-600 flex-shrink-0">
+                         </User>
+                         <select class="bg-transparent text-slate-600 text-sm sm:text-base outline-none flex-1 cursor-pointer ">
+                        <option > Doctor's Name</option>
+                        <option > Doctor Nasir</option>
+                        <option > Doctor Aisha</option>
+                        </select>
+                  </div>
+                   <div class="flex items-center gap-2 px-4 py-3 sm:py-2 flex-1">
+                <MapPin class="w-5 h-5 text-slate-400 flex-shrink-0" />
+                <select class="bg-transparent text-slate-600 text-sm sm:text-base outline-none flex-1 cursor-pointer">
+                  <option>Location</option>
+                  <option>New York</option>
+                  <option>Los Angeles</option>
+                </select>
+              </div>
+                <button class="bg-blue-600 hover:bg-blue-700 text-white rounded-full p-3 transition-colors self-center sm:self-auto">
+                <Search class="w-5 h-5 sm:w-6 sm:h-6" />
+              </button>
+            </div>
+          </div>
+            <!-- right image -->
+               <div class="relative order-1 lg:order-2">
+            
+            <div class="absolute top-1/2 left-1/2 sm:right-0 sm:left-auto -translate-x-1/2 sm:translate-x-0 -translate-y-1/2 w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 bg-blue-400 rounded-full opacity-60 blur-3xl"></div>
+            <img 
+              src="doctorImage.png"
+              alt="Doctor"
+              class="relative z-10 w-full max-w-xs sm:max-w-sm lg:max-w-md mx-auto lg:ml-auto"
+            />
+          </div>
+        </div>
+     <div class="bg-blue-600 text-white">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 grid grid-cols-3 gap-4 sm:gap-8 text-center sm:text-left">
+            <div>
+              <div class="mb-1 text-lg sm:text-2xl">24/7</div>
+              <div class="text-blue-200 text-xs sm:text-base">Online Support</div>
+            </div>
+            <div>
+              <div class="mb-1 text-lg sm:text-2xl">100+</div>
+              <div class="text-blue-200 text-xs sm:text-base">Doctors</div>
+            </div>
+            <div>
+              <div class="mb-1 text-lg sm:text-2xl">1M+</div>
+              <div class="text-blue-200 text-xs sm:text-base">Active Patients</div>
+            </div>
+
+                </div>
+               
+             </div>
+
+         </div>
+
+       </section>
+       <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
+        <h2 class="text-slate-900 mb-8 sm:mb-12 text-2xl sm:text-3xl lg:text-4xl text-center sm:text-left">
+          Our Consulting Specialists
+        </h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+          <!-- {/* Card 1 */} -->
+          <div class="bg-white border-2 border-slate-200 rounded-2xl p-6 sm:p-8 hover:border-blue-500 hover:shadow-lg transition-all cursor-pointer">
+            <div class="w-14 h-14 sm:w-16 sm:h-16 bg-blue-100 rounded-2xl flex items-center justify-center mb-4">
+              <Stethoscope class="w-7 h-7 sm:w-8 sm:h-8 text-blue-600" />
+            </div>
+            <h3 class="text-slate-900 text-lg sm:text-xl">General</h3>
+          </div>
+
+          <!-- {/* Card 2 - Active */} -->
+          <div class="bg-blue-600 border-2 border-blue-600 rounded-2xl p-6 sm:p-8 shadow-lg cursor-pointer">
+            <div class="w-14 h-14 sm:w-16 sm:h-16 bg-white rounded-2xl flex items-center justify-center mb-4">
+              <Activity class="w-7 h-7 sm:w-8 sm:h-8 text-blue-600" />
+            </div>
+            <h3 class="text-white text-lg sm:text-xl">Cardiology</h3>
+          </div>
+
+          <!-- {/* Card 3 */} -->
+          <div class="bg-white border-2 border-slate-200 rounded-2xl p-6 sm:p-8 hover:border-blue-500 hover:shadow-lg transition-all cursor-pointer">
+            <div class="w-14 h-14 sm:w-16 sm:h-16 bg-blue-100 rounded-2xl flex items-center justify-center mb-4">
+              <Heart class="w-7 h-7 sm:w-8 sm:h-8 text-blue-600" />
+            </div>
+            <h3 class="text-slate-900 text-lg sm:text-xl">Pediatric</h3>
+          </div>
+
+          <!-- {/* Card 4 */} -->
+          <div class="bg-white border-2 border-slate-200 rounded-2xl p-6 sm:p-8 hover:border-blue-500 hover:shadow-lg transition-all cursor-pointer">
+            <div class="w-14 h-14 sm:w-16 sm:h-16 bg-blue-100 rounded-2xl flex items-center justify-center mb-4">
+              <Brain class="w-7 h-7 sm:w-8 sm:h-8 text-blue-600" />
+            </div>
+            <h3 class="text-slate-900 text-lg sm:text-xl">Neurology</h3>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
